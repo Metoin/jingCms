@@ -1,21 +1,19 @@
 <?php
-namespace app\admin\controller;
-use think\View;
+namespace app\admin\model;
 
-class User{
-	public function index(){
-		$view = new View();
-        return $view->fetch('index');
+/**
+* 
+*/
+class User
+{
+	
+	function __construct(argument)
+	{
+		# code...
 	}
 
 	public function login()
-	{
-		if(Request::instance()->isPost()){
-			//
-		}else{
-			// 
-		}
-	}
+	{}
 
 	public function register()
 	{}
@@ -33,9 +31,7 @@ class User{
 	{}
 
 	public function real()
-	{
-		//
-	}
+	{}
 
 	public function delete()
 	{}
